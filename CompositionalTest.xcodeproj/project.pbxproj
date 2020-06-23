@@ -49,6 +49,18 @@
 		F02969A0249F8BA400CAF07D /* StickerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F029699F249F8BA400CAF07D /* StickerData.plist */; };
 		F02969A2249F8BB400CAF07D /* SF-Pro-Text-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02969A1249F8BB400CAF07D /* SF-Pro-Text-Semibold.ttf */; };
 		F02969A4249F8BB900CAF07D /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02969A3249F8BB900CAF07D /* SFProDisplay-Semibold.ttf */; };
+		F03B5EF124A1EC8800F5392F /* StickerPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EEA24A1EC8700F5392F /* StickerPack.swift */; };
+		F03B5EF224A1EC8800F5392F /* WebPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EEB24A1EC8700F5392F /* WebPManager.swift */; };
+		F03B5EF324A1EC8800F5392F /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EEC24A1EC8700F5392F /* Sticker.swift */; };
+		F03B5EF424A1EC8800F5392F /* Interoperability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EED24A1EC8700F5392F /* Interoperability.swift */; };
+		F03B5EF524A1EC8800F5392F /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EEE24A1EC8800F5392F /* Limits.swift */; };
+		F03B5EF624A1EC8800F5392F /* StickerPackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EEF24A1EC8800F5392F /* StickerPackManager.swift */; };
+		F03B5EF724A1EC8800F5392F /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EF024A1EC8800F5392F /* ImageData.swift */; };
+		F03B5F0524A1EDEC00F5392F /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EFB24A1EDEB00F5392F /* YYAnimatedImageView.m */; };
+		F03B5F0624A1EDEC00F5392F /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EFC24A1EDEB00F5392F /* YYSpriteSheetImage.m */; };
+		F03B5F0724A1EDEC00F5392F /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EFE24A1EDEB00F5392F /* YYImage.m */; };
+		F03B5F0824A1EDEC00F5392F /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5F0024A1EDEB00F5392F /* YYFrameImage.m */; };
+		F03B5F0924A1EDEC00F5392F /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5F0124A1EDEC00F5392F /* YYImageCoder.m */; };
 		F0871499249E1A22005A42A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0871498249E1A22005A42A7 /* AppDelegate.swift */; };
 		F087149B249E1A22005A42A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F087149A249E1A22005A42A7 /* SceneDelegate.swift */; };
 		F08714A2249E1A25005A42A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08714A1249E1A25005A42A7 /* Assets.xcassets */; };
@@ -100,6 +112,24 @@
 		F029699F249F8BA400CAF07D /* StickerData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StickerData.plist; sourceTree = "<group>"; };
 		F02969A1249F8BB400CAF07D /* SF-Pro-Text-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.ttf"; sourceTree = "<group>"; };
 		F02969A3249F8BB900CAF07D /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		F03B5EEA24A1EC8700F5392F /* StickerPack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPack.swift; sourceTree = "<group>"; };
+		F03B5EEB24A1EC8700F5392F /* WebPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
+		F03B5EEC24A1EC8700F5392F /* Sticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		F03B5EED24A1EC8700F5392F /* Interoperability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interoperability.swift; sourceTree = "<group>"; };
+		F03B5EEE24A1EC8800F5392F /* Limits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
+		F03B5EEF24A1EC8800F5392F /* StickerPackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerPackManager.swift; sourceTree = "<group>"; };
+		F03B5EF024A1EC8800F5392F /* ImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		F03B5EFA24A1EDEA00F5392F /* CompositionalTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompositionalTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		F03B5EFB24A1EDEB00F5392F /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		F03B5EFC24A1EDEB00F5392F /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		F03B5EFD24A1EDEB00F5392F /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		F03B5EFE24A1EDEB00F5392F /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		F03B5EFF24A1EDEB00F5392F /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		F03B5F0024A1EDEB00F5392F /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		F03B5F0124A1EDEC00F5392F /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		F03B5F0224A1EDEC00F5392F /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		F03B5F0324A1EDEC00F5392F /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		F03B5F0424A1EDEC00F5392F /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
 		F0871495249E1A22005A42A7 /* CompositionalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0871498249E1A22005A42A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F087149A249E1A22005A42A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +240,38 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		F03B5EE924A1EC7300F5392F /* WebP */ = {
+			isa = PBXGroup;
+			children = (
+				F03B5F0424A1EDEC00F5392F /* YYAnimatedImageView.h */,
+				F03B5EFB24A1EDEB00F5392F /* YYAnimatedImageView.m */,
+				F03B5EFD24A1EDEB00F5392F /* YYFrameImage.h */,
+				F03B5F0024A1EDEB00F5392F /* YYFrameImage.m */,
+				F03B5F0324A1EDEC00F5392F /* YYImage.h */,
+				F03B5EFE24A1EDEB00F5392F /* YYImage.m */,
+				F03B5EFF24A1EDEB00F5392F /* YYImageCoder.h */,
+				F03B5F0124A1EDEC00F5392F /* YYImageCoder.m */,
+				F03B5F0224A1EDEC00F5392F /* YYSpriteSheetImage.h */,
+				F03B5EFC24A1EDEB00F5392F /* YYSpriteSheetImage.m */,
+				F03B5EFA24A1EDEA00F5392F /* CompositionalTest-Bridging-Header.h */,
+			);
+			path = WebP;
+			sourceTree = "<group>";
+		};
+		F03B5EF824A1EC8E00F5392F /* WhatsAppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F03B5EEE24A1EC8800F5392F /* Limits.swift */,
+				F03B5EEA24A1EC8700F5392F /* StickerPack.swift */,
+				F03B5EEC24A1EC8700F5392F /* Sticker.swift */,
+				F03B5EF024A1EC8800F5392F /* ImageData.swift */,
+				F03B5EED24A1EC8700F5392F /* Interoperability.swift */,
+				F03B5EEF24A1EC8800F5392F /* StickerPackManager.swift */,
+				F03B5EEB24A1EC8700F5392F /* WebPManager.swift */,
+			);
+			path = WhatsAppFiles;
+			sourceTree = "<group>";
+		};
 		F087148C249E1A22005A42A7 = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +295,8 @@
 				F087149A249E1A22005A42A7 /* SceneDelegate.swift */,
 				F0296956249F8B5F00CAF07D /* StickersViewController.swift */,
 				D7B591BF24A0E4760003F48F /* CubeMenuViewController.swift */,
+				F03B5EF824A1EC8E00F5392F /* WhatsAppFiles */,
+				F03B5EE924A1EC7300F5392F /* WebP */,
 				F02969A7249F8BEE00CAF07D /* Views */,
 				F02969A8249F8BF200CAF07D /* Models */,
 				F02969A9249F8BFA00CAF07D /* Extensions */,
@@ -279,6 +343,7 @@
 				TargetAttributes = {
 					F0871494249E1A22005A42A7 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -352,16 +417,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0296961249F8B8100CAF07D /* UIFont + Extension.swift in Sources */,
+				F03B5EF124A1EC8800F5392F /* StickerPack.swift in Sources */,
+				F03B5EF624A1EC8800F5392F /* StickerPackManager.swift in Sources */,
+				F03B5F0524A1EDEC00F5392F /* YYAnimatedImageView.m in Sources */,
+				F03B5F0624A1EDEC00F5392F /* YYSpriteSheetImage.m in Sources */,
 				D7B591C024A0E4760003F48F /* CubeMenuViewController.swift in Sources */,
+				F03B5EF424A1EC8800F5392F /* Interoperability.swift in Sources */,
 				F029695B249F8B6D00CAF07D /* AppCollectionCell.swift in Sources */,
+				F03B5EF224A1EC8800F5392F /* WebPManager.swift in Sources */,
 				F0296959249F8B6800CAF07D /* MyStickerCell.swift in Sources */,
+				F03B5EF524A1EC8800F5392F /* Limits.swift in Sources */,
 				F029695F249F8B7900CAF07D /* StickerModel.swift in Sources */,
 				D7B591C224A0E5BE0003F48F /* MainTableCell.swift in Sources */,
 				D7B591C424A0E5CA0003F48F /* ImageTableCell.swift in Sources */,
+				F03B5F0924A1EDEC00F5392F /* YYImageCoder.m in Sources */,
+				F03B5F0724A1EDEC00F5392F /* YYImage.m in Sources */,
 				F0871499249E1A22005A42A7 /* AppDelegate.swift in Sources */,
+				F03B5EF324A1EC8800F5392F /* Sticker.swift in Sources */,
 				F0296957249F8B5F00CAF07D /* StickersViewController.swift in Sources */,
 				F029695D249F8B7200CAF07D /* SectionFooter.swift in Sources */,
+				F03B5F0824A1EDEC00F5392F /* YYFrameImage.m in Sources */,
 				F087149B249E1A22005A42A7 /* SceneDelegate.swift in Sources */,
+				F03B5EF724A1EC8800F5392F /* ImageData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TSZQ4D456H;
 				INFOPLIST_FILE = CompositionalTest/Info.plist;
@@ -506,6 +584,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyParkhomenko.CompositionalTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CompositionalTest/WebP/CompositionalTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -515,6 +595,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TSZQ4D456H;
 				INFOPLIST_FILE = CompositionalTest/Info.plist;
@@ -524,6 +605,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyParkhomenko.CompositionalTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CompositionalTest/WebP/CompositionalTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
