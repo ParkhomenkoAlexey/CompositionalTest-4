@@ -19,6 +19,8 @@ class StickersViewController: UIViewController {
     var dataSource: UICollectionViewDiffableDataSource<Section, StickerModel>! = nil
     var currentSnapshot: NSDiffableDataSourceSnapshot<Section, StickerModel>! = nil
     
+    var stickerPack: StickerPack!
+    
     enum Section {
         case main
     }
@@ -28,6 +30,7 @@ class StickersViewController: UIViewController {
         
         view.backgroundColor = .systemBackground
     
+        fetchStickerPacks()
         loadStickerData()
         setupNavigationBar()
         setupCollectionView()
@@ -76,7 +79,22 @@ class StickersViewController: UIViewController {
         
     }
     
+    private func fetchStickerPacks() {
+        do {
+            try StickerPackManager.fetchStickerPacks(fromJSON: StickerPackManager.stickersJSON(contentsOfFile: "sticker_packs")) { stickerPacks in
+                
+                self.stickerPack = stickerPacks[0]
+                
+            }
+        } catch StickerPackError.fileNotFound {
+            fatalError("sticker_packs.wasticker not found.")
+        } catch {
+            fatalError(error.localizedDescription)
+        }
+    }
     
+    
+    // MARK: - Setup UI
     private func setupCollectionView() {
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: setupCompositionalLayout())
         collectionView.backgroundColor = .systemBackground
@@ -178,6 +196,13 @@ extension StickersViewController: FooterButtonsDelegate {
     
     func unlockButtonPressed() {
         print(#function)
+        let loadingAlert: UIAlertController = UIAlertController(title: "Sending to WhatsApp", message: "\n\n", preferredStyle: .alert)
+        loadingAlert.addSpinner()
+        present(loadingAlert, animated: true)
+
+        stickerPack.sendToWhatsApp { completed in
+            loadingAlert.dismiss(animated: true)
+        }
     }
     
     func restoreButtonPressed() {

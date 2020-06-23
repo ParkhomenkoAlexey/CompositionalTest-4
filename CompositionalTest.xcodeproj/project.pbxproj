@@ -61,6 +61,40 @@
 		F03B5F0724A1EDEC00F5392F /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5EFE24A1EDEB00F5392F /* YYImage.m */; };
 		F03B5F0824A1EDEC00F5392F /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5F0024A1EDEB00F5392F /* YYFrameImage.m */; };
 		F03B5F0924A1EDEC00F5392F /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B5F0124A1EDEC00F5392F /* YYImageCoder.m */; };
+		F03B5F0B24A1F1CF00F5392F /* sticker_packs.wasticker in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F0A24A1F1CF00F5392F /* sticker_packs.wasticker */; };
+		F03B5F0D24A1F3D200F5392F /* UIAlertController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03B5F0C24A1F3D200F5392F /* UIAlertController + Extension.swift */; };
+		F03B5F0F24A1F5CA00F5392F /* tray_Cuppy.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F0E24A1F5CA00F5392F /* tray_Cuppy.png */; };
+		F03B5F3024A1F7CC00F5392F /* WASticker-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1124A1F7C900F5392F /* WASticker-1.png */; };
+		F03B5F3124A1F7CC00F5392F /* WASticker-10.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1224A1F7C900F5392F /* WASticker-10.png */; };
+		F03B5F3224A1F7CC00F5392F /* WASticker-28.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1324A1F7C900F5392F /* WASticker-28.png */; };
+		F03B5F3324A1F7CC00F5392F /* WASticker-21.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1424A1F7C900F5392F /* WASticker-21.png */; };
+		F03B5F3424A1F7CC00F5392F /* WASticker-14.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1524A1F7C900F5392F /* WASticker-14.png */; };
+		F03B5F3524A1F7CC00F5392F /* WASticker-29.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1624A1F7C900F5392F /* WASticker-29.png */; };
+		F03B5F3624A1F7CC00F5392F /* WASticker-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1724A1F7C900F5392F /* WASticker-3.png */; };
+		F03B5F3724A1F7CC00F5392F /* WASticker-11.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1824A1F7CA00F5392F /* WASticker-11.png */; };
+		F03B5F3824A1F7CC00F5392F /* WASticker-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1924A1F7CA00F5392F /* WASticker-2.png */; };
+		F03B5F3924A1F7CC00F5392F /* WASticker-30.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1A24A1F7CA00F5392F /* WASticker-30.png */; };
+		F03B5F3A24A1F7CC00F5392F /* WASticker-19.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1B24A1F7CA00F5392F /* WASticker-19.png */; };
+		F03B5F3B24A1F7CC00F5392F /* WASticker-16.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1C24A1F7CA00F5392F /* WASticker-16.png */; };
+		F03B5F3C24A1F7CC00F5392F /* WASticker-9.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1D24A1F7CA00F5392F /* WASticker-9.png */; };
+		F03B5F3D24A1F7CC00F5392F /* WASticker-18.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1E24A1F7CA00F5392F /* WASticker-18.png */; };
+		F03B5F3E24A1F7CC00F5392F /* WASticker-27.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F1F24A1F7CA00F5392F /* WASticker-27.png */; };
+		F03B5F3F24A1F7CC00F5392F /* WASticker-20.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2024A1F7CA00F5392F /* WASticker-20.png */; };
+		F03B5F4024A1F7CC00F5392F /* WATrayIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2124A1F7CA00F5392F /* WATrayIcon.png */; };
+		F03B5F4124A1F7CC00F5392F /* WASticker-8.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2224A1F7CB00F5392F /* WASticker-8.png */; };
+		F03B5F4224A1F7CC00F5392F /* WASticker-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2324A1F7CB00F5392F /* WASticker-6.png */; };
+		F03B5F4324A1F7CC00F5392F /* WASticker-22.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2424A1F7CB00F5392F /* WASticker-22.png */; };
+		F03B5F4424A1F7CC00F5392F /* WASticker-23.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2524A1F7CB00F5392F /* WASticker-23.png */; };
+		F03B5F4524A1F7CC00F5392F /* WASticker-12.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2624A1F7CB00F5392F /* WASticker-12.png */; };
+		F03B5F4624A1F7CC00F5392F /* WASticker-15.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2724A1F7CB00F5392F /* WASticker-15.png */; };
+		F03B5F4724A1F7CC00F5392F /* WASticker-26.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2824A1F7CB00F5392F /* WASticker-26.png */; };
+		F03B5F4824A1F7CC00F5392F /* WASticker-4.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2924A1F7CB00F5392F /* WASticker-4.png */; };
+		F03B5F4924A1F7CC00F5392F /* WASticker-17.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2A24A1F7CB00F5392F /* WASticker-17.png */; };
+		F03B5F4A24A1F7CC00F5392F /* WASticker-13.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2B24A1F7CB00F5392F /* WASticker-13.png */; };
+		F03B5F4B24A1F7CC00F5392F /* WASticker-5.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2C24A1F7CC00F5392F /* WASticker-5.png */; };
+		F03B5F4C24A1F7CC00F5392F /* WASticker-24.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2D24A1F7CC00F5392F /* WASticker-24.png */; };
+		F03B5F4D24A1F7CC00F5392F /* WASticker-25.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2E24A1F7CC00F5392F /* WASticker-25.png */; };
+		F03B5F4E24A1F7CC00F5392F /* WASticker-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F03B5F2F24A1F7CC00F5392F /* WASticker-7.png */; };
 		F0871499249E1A22005A42A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0871498249E1A22005A42A7 /* AppDelegate.swift */; };
 		F087149B249E1A22005A42A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F087149A249E1A22005A42A7 /* SceneDelegate.swift */; };
 		F08714A2249E1A25005A42A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08714A1249E1A25005A42A7 /* Assets.xcassets */; };
@@ -130,6 +164,40 @@
 		F03B5F0224A1EDEC00F5392F /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
 		F03B5F0324A1EDEC00F5392F /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
 		F03B5F0424A1EDEC00F5392F /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		F03B5F0A24A1F1CF00F5392F /* sticker_packs.wasticker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sticker_packs.wasticker; sourceTree = "<group>"; };
+		F03B5F0C24A1F3D200F5392F /* UIAlertController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController + Extension.swift"; sourceTree = "<group>"; };
+		F03B5F0E24A1F5CA00F5392F /* tray_Cuppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tray_Cuppy.png; sourceTree = "<group>"; };
+		F03B5F1124A1F7C900F5392F /* WASticker-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-1.png"; sourceTree = "<group>"; };
+		F03B5F1224A1F7C900F5392F /* WASticker-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-10.png"; sourceTree = "<group>"; };
+		F03B5F1324A1F7C900F5392F /* WASticker-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-28.png"; sourceTree = "<group>"; };
+		F03B5F1424A1F7C900F5392F /* WASticker-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-21.png"; sourceTree = "<group>"; };
+		F03B5F1524A1F7C900F5392F /* WASticker-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-14.png"; sourceTree = "<group>"; };
+		F03B5F1624A1F7C900F5392F /* WASticker-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-29.png"; sourceTree = "<group>"; };
+		F03B5F1724A1F7C900F5392F /* WASticker-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-3.png"; sourceTree = "<group>"; };
+		F03B5F1824A1F7CA00F5392F /* WASticker-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-11.png"; sourceTree = "<group>"; };
+		F03B5F1924A1F7CA00F5392F /* WASticker-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-2.png"; sourceTree = "<group>"; };
+		F03B5F1A24A1F7CA00F5392F /* WASticker-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-30.png"; sourceTree = "<group>"; };
+		F03B5F1B24A1F7CA00F5392F /* WASticker-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-19.png"; sourceTree = "<group>"; };
+		F03B5F1C24A1F7CA00F5392F /* WASticker-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-16.png"; sourceTree = "<group>"; };
+		F03B5F1D24A1F7CA00F5392F /* WASticker-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-9.png"; sourceTree = "<group>"; };
+		F03B5F1E24A1F7CA00F5392F /* WASticker-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-18.png"; sourceTree = "<group>"; };
+		F03B5F1F24A1F7CA00F5392F /* WASticker-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-27.png"; sourceTree = "<group>"; };
+		F03B5F2024A1F7CA00F5392F /* WASticker-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-20.png"; sourceTree = "<group>"; };
+		F03B5F2124A1F7CA00F5392F /* WATrayIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WATrayIcon.png; sourceTree = "<group>"; };
+		F03B5F2224A1F7CB00F5392F /* WASticker-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-8.png"; sourceTree = "<group>"; };
+		F03B5F2324A1F7CB00F5392F /* WASticker-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-6.png"; sourceTree = "<group>"; };
+		F03B5F2424A1F7CB00F5392F /* WASticker-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-22.png"; sourceTree = "<group>"; };
+		F03B5F2524A1F7CB00F5392F /* WASticker-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-23.png"; sourceTree = "<group>"; };
+		F03B5F2624A1F7CB00F5392F /* WASticker-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-12.png"; sourceTree = "<group>"; };
+		F03B5F2724A1F7CB00F5392F /* WASticker-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-15.png"; sourceTree = "<group>"; };
+		F03B5F2824A1F7CB00F5392F /* WASticker-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-26.png"; sourceTree = "<group>"; };
+		F03B5F2924A1F7CB00F5392F /* WASticker-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-4.png"; sourceTree = "<group>"; };
+		F03B5F2A24A1F7CB00F5392F /* WASticker-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-17.png"; sourceTree = "<group>"; };
+		F03B5F2B24A1F7CB00F5392F /* WASticker-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-13.png"; sourceTree = "<group>"; };
+		F03B5F2C24A1F7CC00F5392F /* WASticker-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-5.png"; sourceTree = "<group>"; };
+		F03B5F2D24A1F7CC00F5392F /* WASticker-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-24.png"; sourceTree = "<group>"; };
+		F03B5F2E24A1F7CC00F5392F /* WASticker-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-25.png"; sourceTree = "<group>"; };
+		F03B5F2F24A1F7CC00F5392F /* WASticker-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WASticker-7.png"; sourceTree = "<group>"; };
 		F0871495249E1A22005A42A7 /* CompositionalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0871498249E1A22005A42A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F087149A249E1A22005A42A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +229,7 @@
 		F0296962249F8B8E00CAF07D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F03B5F0E24A1F5CA00F5392F /* tray_Cuppy.png */,
 				F0296969249F8B9E00CAF07D /* Sticker-1.png */,
 				F0296979249F8B9F00CAF07D /* Sticker-2.png */,
 				F0296980249F8BA000CAF07D /* Sticker-3.png */,
@@ -236,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				F0296960249F8B8100CAF07D /* UIFont + Extension.swift */,
+				F03B5F0C24A1F3D200F5392F /* UIAlertController + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -258,7 +328,7 @@
 			path = WebP;
 			sourceTree = "<group>";
 		};
-		F03B5EF824A1EC8E00F5392F /* WhatsAppFiles */ = {
+		F03B5EF824A1EC8E00F5392F /* WhatsApp Files */ = {
 			isa = PBXGroup;
 			children = (
 				F03B5EEE24A1EC8800F5392F /* Limits.swift */,
@@ -268,8 +338,47 @@
 				F03B5EED24A1EC8700F5392F /* Interoperability.swift */,
 				F03B5EEF24A1EC8800F5392F /* StickerPackManager.swift */,
 				F03B5EEB24A1EC8700F5392F /* WebPManager.swift */,
+				F03B5F0A24A1F1CF00F5392F /* sticker_packs.wasticker */,
 			);
-			path = WhatsAppFiles;
+			path = "WhatsApp Files";
+			sourceTree = "<group>";
+		};
+		F03B5F1024A1F7A700F5392F /* WhatsApp Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F03B5F2124A1F7CA00F5392F /* WATrayIcon.png */,
+				F03B5F1124A1F7C900F5392F /* WASticker-1.png */,
+				F03B5F1924A1F7CA00F5392F /* WASticker-2.png */,
+				F03B5F1724A1F7C900F5392F /* WASticker-3.png */,
+				F03B5F2924A1F7CB00F5392F /* WASticker-4.png */,
+				F03B5F2C24A1F7CC00F5392F /* WASticker-5.png */,
+				F03B5F2324A1F7CB00F5392F /* WASticker-6.png */,
+				F03B5F2F24A1F7CC00F5392F /* WASticker-7.png */,
+				F03B5F2224A1F7CB00F5392F /* WASticker-8.png */,
+				F03B5F1D24A1F7CA00F5392F /* WASticker-9.png */,
+				F03B5F1224A1F7C900F5392F /* WASticker-10.png */,
+				F03B5F1824A1F7CA00F5392F /* WASticker-11.png */,
+				F03B5F2624A1F7CB00F5392F /* WASticker-12.png */,
+				F03B5F2B24A1F7CB00F5392F /* WASticker-13.png */,
+				F03B5F1524A1F7C900F5392F /* WASticker-14.png */,
+				F03B5F2724A1F7CB00F5392F /* WASticker-15.png */,
+				F03B5F1C24A1F7CA00F5392F /* WASticker-16.png */,
+				F03B5F2A24A1F7CB00F5392F /* WASticker-17.png */,
+				F03B5F1E24A1F7CA00F5392F /* WASticker-18.png */,
+				F03B5F1B24A1F7CA00F5392F /* WASticker-19.png */,
+				F03B5F2024A1F7CA00F5392F /* WASticker-20.png */,
+				F03B5F1424A1F7C900F5392F /* WASticker-21.png */,
+				F03B5F2424A1F7CB00F5392F /* WASticker-22.png */,
+				F03B5F2524A1F7CB00F5392F /* WASticker-23.png */,
+				F03B5F2D24A1F7CC00F5392F /* WASticker-24.png */,
+				F03B5F2E24A1F7CC00F5392F /* WASticker-25.png */,
+				F03B5F2824A1F7CB00F5392F /* WASticker-26.png */,
+				F03B5F1F24A1F7CA00F5392F /* WASticker-27.png */,
+				F03B5F1324A1F7C900F5392F /* WASticker-28.png */,
+				F03B5F1624A1F7C900F5392F /* WASticker-29.png */,
+				F03B5F1A24A1F7CA00F5392F /* WASticker-30.png */,
+			);
+			path = "WhatsApp Resources";
 			sourceTree = "<group>";
 		};
 		F087148C249E1A22005A42A7 = {
@@ -295,11 +404,12 @@
 				F087149A249E1A22005A42A7 /* SceneDelegate.swift */,
 				F0296956249F8B5F00CAF07D /* StickersViewController.swift */,
 				D7B591BF24A0E4760003F48F /* CubeMenuViewController.swift */,
-				F03B5EF824A1EC8E00F5392F /* WhatsAppFiles */,
+				F03B5EF824A1EC8E00F5392F /* WhatsApp Files */,
 				F03B5EE924A1EC7300F5392F /* WebP */,
 				F02969A7249F8BEE00CAF07D /* Views */,
 				F02969A8249F8BF200CAF07D /* Models */,
 				F02969A9249F8BFA00CAF07D /* Extensions */,
+				F03B5F1024A1F7A700F5392F /* WhatsApp Resources */,
 				F0296962249F8B8E00CAF07D /* Resources */,
 				F08714A1249E1A25005A42A7 /* Assets.xcassets */,
 				F02969A1249F8BB400CAF07D /* SF-Pro-Text-Semibold.ttf */,
@@ -370,41 +480,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03B5F4D24A1F7CC00F5392F /* WASticker-25.png in Resources */,
+				F03B5F4E24A1F7CC00F5392F /* WASticker-7.png in Resources */,
+				F03B5F3924A1F7CC00F5392F /* WASticker-30.png in Resources */,
 				F029699C249F8BA000CAF07D /* Sticker-16.png in Resources */,
 				F0296988249F8BA000CAF07D /* Sticker-10.png in Resources */,
+				F03B5F3F24A1F7CC00F5392F /* WASticker-20.png in Resources */,
+				F03B5F4824A1F7CC00F5392F /* WASticker-4.png in Resources */,
+				F03B5F4924A1F7CC00F5392F /* WASticker-17.png in Resources */,
 				F0296983249F8BA000CAF07D /* Sticker-18.png in Resources */,
 				F0296987249F8BA000CAF07D /* Sticker-1.png in Resources */,
 				F0296990249F8BA000CAF07D /* Sticker-19.png in Resources */,
+				F03B5F3D24A1F7CC00F5392F /* WASticker-18.png in Resources */,
 				F029699A249F8BA000CAF07D /* Sticker-6.png in Resources */,
+				F03B5F0B24A1F1CF00F5392F /* sticker_packs.wasticker in Resources */,
+				F03B5F3024A1F7CC00F5392F /* WASticker-1.png in Resources */,
 				F0296994249F8BA000CAF07D /* Sticker-27.png in Resources */,
+				F03B5F4524A1F7CC00F5392F /* WASticker-12.png in Resources */,
 				F029698A249F8BA000CAF07D /* Sticker-13.png in Resources */,
 				F0296995249F8BA000CAF07D /* Sticker-7.png in Resources */,
 				F0296992249F8BA000CAF07D /* Sticker-24.png in Resources */,
+				F03B5F0F24A1F5CA00F5392F /* tray_Cuppy.png in Resources */,
 				F029698F249F8BA000CAF07D /* Sticker-4.png in Resources */,
 				F0296991249F8BA000CAF07D /* Sticker-14.png in Resources */,
 				F08714A5249E1A25005A42A7 /* LaunchScreen.storyboard in Resources */,
+				F03B5F4A24A1F7CC00F5392F /* WASticker-13.png in Resources */,
 				F029699B249F8BA000CAF07D /* Sticker-9.png in Resources */,
+				F03B5F4124A1F7CC00F5392F /* WASticker-8.png in Resources */,
 				F0296996249F8BA000CAF07D /* Sticker-17.png in Resources */,
+				F03B5F3C24A1F7CC00F5392F /* WASticker-9.png in Resources */,
 				F029698D249F8BA000CAF07D /* Sticker-22.png in Resources */,
 				F08714A2249E1A25005A42A7 /* Assets.xcassets in Resources */,
+				F03B5F3E24A1F7CC00F5392F /* WASticker-27.png in Resources */,
 				F0296981249F8BA000CAF07D /* Sticker-28.png in Resources */,
 				F0296997249F8BA000CAF07D /* Sticker-2.png in Resources */,
+				F03B5F3124A1F7CC00F5392F /* WASticker-10.png in Resources */,
 				F0296984249F8BA000CAF07D /* Sticker-23.png in Resources */,
 				F0296989249F8BA000CAF07D /* Sticker-29.png in Resources */,
+				F03B5F3724A1F7CC00F5392F /* WASticker-11.png in Resources */,
 				F029699E249F8BA000CAF07D /* Sticker-3.png in Resources */,
+				F03B5F4B24A1F7CC00F5392F /* WASticker-5.png in Resources */,
+				F03B5F4C24A1F7CC00F5392F /* WASticker-24.png in Resources */,
 				F029698E249F8BA000CAF07D /* Sticker-8.png in Resources */,
+				F03B5F3824A1F7CC00F5392F /* WASticker-2.png in Resources */,
 				F02969A4249F8BB900CAF07D /* SFProDisplay-Semibold.ttf in Resources */,
 				F0296998249F8BA000CAF07D /* Sticker-15.png in Resources */,
+				F03B5F3B24A1F7CC00F5392F /* WASticker-16.png in Resources */,
+				F03B5F3A24A1F7CC00F5392F /* WASticker-19.png in Resources */,
 				F02969A0249F8BA400CAF07D /* StickerData.plist in Resources */,
+				F03B5F4424A1F7CC00F5392F /* WASticker-23.png in Resources */,
+				F03B5F4224A1F7CC00F5392F /* WASticker-6.png in Resources */,
 				F029698C249F8BA000CAF07D /* Sticker-11.png in Resources */,
+				F03B5F3624A1F7CC00F5392F /* WASticker-3.png in Resources */,
 				F0DD0A9624A1E66800F041CE /* SFUIText-Regular.ttf in Resources */,
 				F0296985249F8BA000CAF07D /* Sticker-12.png in Resources */,
 				F0296999249F8BA000CAF07D /* Sticker-20.png in Resources */,
 				F029698B249F8BA000CAF07D /* Sticker-30.png in Resources */,
+				F03B5F4724A1F7CC00F5392F /* WASticker-26.png in Resources */,
+				F03B5F3424A1F7CC00F5392F /* WASticker-14.png in Resources */,
+				F03B5F3524A1F7CC00F5392F /* WASticker-29.png in Resources */,
+				F03B5F4624A1F7CC00F5392F /* WASticker-15.png in Resources */,
 				F029699D249F8BA000CAF07D /* Sticker-25.png in Resources */,
+				F03B5F3324A1F7CC00F5392F /* WASticker-21.png in Resources */,
 				F0296986249F8BA000CAF07D /* Sticker-21.png in Resources */,
 				F02969A2249F8BB400CAF07D /* SF-Pro-Text-Semibold.ttf in Resources */,
+				F03B5F4024A1F7CC00F5392F /* WATrayIcon.png in Resources */,
 				F0296993249F8BA000CAF07D /* Sticker-5.png in Resources */,
+				F03B5F4324A1F7CC00F5392F /* WASticker-22.png in Resources */,
+				F03B5F3224A1F7CC00F5392F /* WASticker-28.png in Resources */,
 				F0296982249F8BA000CAF07D /* Sticker-26.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +567,7 @@
 				D7B591C024A0E4760003F48F /* CubeMenuViewController.swift in Sources */,
 				F03B5EF424A1EC8800F5392F /* Interoperability.swift in Sources */,
 				F029695B249F8B6D00CAF07D /* AppCollectionCell.swift in Sources */,
+				F03B5F0D24A1F3D200F5392F /* UIAlertController + Extension.swift in Sources */,
 				F03B5EF224A1EC8800F5392F /* WebPManager.swift in Sources */,
 				F0296959249F8B6800CAF07D /* MyStickerCell.swift in Sources */,
 				F03B5EF524A1EC8800F5392F /* Limits.swift in Sources */,
