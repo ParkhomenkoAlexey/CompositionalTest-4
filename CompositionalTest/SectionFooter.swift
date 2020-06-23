@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol HideButtonsDelegate: class {
+protocol FooterButtonsDelegate: class {
     func unlockButtonPressed()
     func restoreButtonPressed()
 }
@@ -28,7 +28,7 @@ class SectionFooter: UICollectionReusableView {
     var buttonsPortraitConstraint: NSLayoutConstraint!
     var buttonsLandscapeConstraint: NSLayoutConstraint!
     
-    weak var delegate: HideButtonsDelegate?
+    weak var delegate: FooterButtonsDelegate?
 //    weak var messageDelegate: MessageExtensionDelegate?
 //
 //    var dataSource = MoreAppsDataManager.shared.dataSource

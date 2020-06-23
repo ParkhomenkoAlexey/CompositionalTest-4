@@ -13,7 +13,7 @@ class StickersViewController: UIViewController {
 
     var stickers = [StickerModel]()
     
-    var count: Int = 3
+    var count: Int = 15
     
     var collectionView: UICollectionView!
     var dataSource: UICollectionViewDiffableDataSource<Section, StickerModel>! = nil
@@ -147,6 +147,7 @@ class StickersViewController: UIViewController {
         dataSource.supplementaryViewProvider = { (collectionView: UICollectionView, kind: String, indexPath: IndexPath) -> UICollectionReusableView? in
             
             if let sectionFooter = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: SectionFooter.reuseId, for: indexPath) as? SectionFooter {
+                sectionFooter.delegate = self
                 
                 return sectionFooter
             } else {
@@ -162,7 +163,7 @@ class StickersViewController: UIViewController {
 
 // MARK: - Actions
 
-extension StickersViewController {
+extension StickersViewController: FooterButtonsDelegate {
     
     @objc func сubesButtonTapped() {
 
@@ -173,6 +174,14 @@ extension StickersViewController {
     @objc func loopButtonTapped() {
         count += 1
         dataSource.apply(currentSnapshot, animatingDifferences: true)
+    }
+    
+    func unlockButtonPressed() {
+        print(#function)
+    }
+    
+    func restoreButtonPressed() {
+        print(#function)
     }
 }
 

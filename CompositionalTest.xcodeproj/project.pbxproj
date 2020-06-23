@@ -53,6 +53,7 @@
 		F087149B249E1A22005A42A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F087149A249E1A22005A42A7 /* SceneDelegate.swift */; };
 		F08714A2249E1A25005A42A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08714A1249E1A25005A42A7 /* Assets.xcassets */; };
 		F08714A5249E1A25005A42A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08714A3249E1A25005A42A7 /* LaunchScreen.storyboard */; };
+		F0DD0A9624A1E66800F041CE /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7B591C624A0F5B50003F48F /* SFUIText-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -331,6 +332,7 @@
 				F0296998249F8BA000CAF07D /* Sticker-15.png in Resources */,
 				F02969A0249F8BA400CAF07D /* StickerData.plist in Resources */,
 				F029698C249F8BA000CAF07D /* Sticker-11.png in Resources */,
+				F0DD0A9624A1E66800F041CE /* SFUIText-Regular.ttf in Resources */,
 				F0296985249F8BA000CAF07D /* Sticker-12.png in Resources */,
 				F0296999249F8BA000CAF07D /* Sticker-20.png in Resources */,
 				F029698B249F8BA000CAF07D /* Sticker-30.png in Resources */,
